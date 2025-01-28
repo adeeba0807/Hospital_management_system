@@ -48,8 +48,7 @@ const Login = () => {
         <h2>Sign In</h2>
         <p>Please Login To Continue</p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat culpa
-          voluptas expedita itaque ex, totam ad quod error?
+        Welcome! Please fill out the form below to create your account and join our community. By registering, you gain access to all the features and benefits we offer. We look forward to having you with us!
         </p>
         <form onSubmit={handleLogin}>
           <input

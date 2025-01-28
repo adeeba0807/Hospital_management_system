@@ -11,26 +11,18 @@ const Biography = ({imageUrl}) => {
           <p>Biography</p>
           <h3>Who We Are</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
-            blanditiis sequi aperiam. Debitis fugiat harum ex maxime illo
-            consequatur mollitia voluptatem omnis nihil nesciunt beatae esse
-            ipsam, sapiente totam aspernatur porro ducimus aperiam nisi. Ex
-            magnam voluptatum consectetur reprehenderit fugiat recusandae aut
-            similique illum natus velit, praesentium nostrum nesciunt. Deleniti,
-            nesciunt laboriosam totam iusto!
+          ZeeCare is the official online app for ZeeCare Hospital, designed to make scheduling appointments and accessing healthcare services effortless. Our app bridges the gap between you and expert medical care, ensuring a smooth and hassle-free experience.
+
+ZeeCare Hospital is a trusted healthcare institution, known for its compassionate and advanced medical services. Through the ZeeCare app, you can easily book appointments, consult with specialists, and stay updated with your medical records—all at your convenience.
+
+At ZeeCare, we are committed to enhancing your healthcare journey, making it simple, efficient, and accessible for everyone.
           </p>
-          <p>We are all in 2024!</p>
-          <p>We are working on a MERN STACK PROJECT.</p>
+          <p>We are all in 2025!</p>
+          <p>We are working on  hassle free medical facilities.</p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-            assumenda exercitationem accusamus sit repellendus quo optio dolorum
-            corporis corrupti. Quas similique vel minima veniam tenetur
-            obcaecati atque magni suscipit laboriosam! Veniam vitae minus nihil
-            cupiditate natus provident. Ex illum quasi pariatur odit nisi
-            voluptas illo qui ipsum mollitia. Libero, assumenda?
+          Our app is designed to save you time and effort, eliminating the need for long queues or repeated calls for scheduling. With just a few taps, you can connect with our skilled healthcare professionals and ensure timely care for yourself and your loved ones. Whether it’s routine check-ups, specialized consultations, or follow-ups, the ZeeCare app puts your health management in the palm of your hand.
           </p>
-          <p>Lorem ipsum dolor sit amet!</p>
-          <p>Coding is fun!</p>
+         
         </div>
       </div>
     </>

@@ -58,8 +58,7 @@ const Register = () => {
         <h2>Sign Up</h2>
         <p>Please Sign Up To Continue</p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat culpa
-          voluptas expedita itaque ex, totam ad quod error?
+        Welcome! Please fill out the form below to create your account and join our community. By registering, you gain access to all the features and benefits we offer. We look forward to having you with us!
         </p>
         <form onSubmit={handleRegistration}>
           <div>
@@ -93,7 +92,7 @@ const Register = () => {
           <div>
             <input
               type="number"
-              placeholder="NIC"
+              placeholder="age"
               value={nic}
               onChange={(e) => setNic(e.target.value)}
             />

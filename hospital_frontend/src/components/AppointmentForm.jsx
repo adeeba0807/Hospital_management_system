@@ -123,7 +123,7 @@ const AppointmentForm = () => {
           <div>
             <input
               type="number"
-              placeholder="NIC"
+              placeholder="age"
               value={nic}
               onChange={(e) => setNic(e.target.value)}
             />
