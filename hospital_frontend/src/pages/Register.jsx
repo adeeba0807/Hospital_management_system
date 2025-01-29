@@ -11,7 +11,7 @@ const Register = () => {
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
-  const [nic, setNic] = useState("");
+  const [adhaar, setAdhaar] = useState("");
   const [dob, setDob] = useState("");
   const [gender, setGender] = useState("");
   const [password, setPassword] = useState("");
@@ -20,11 +20,16 @@ const Register = () => {
 
   const handleRegistration = async (e) => {
     e.preventDefault();
+
+    // if (!firstName || !lastName || !email || !phone || !adhaar || !dob || !gender || !password) {
+    //   toast.error("Please Fill Full Form!");
+    //   return;
+    // }
     try {
       await axios
         .post(
           "http://localhost:4000/api/v1/user/patient/register",
-          { firstName, lastName, email, phone, nic, dob, gender, password },
+          { firstName, lastName, email, phone, adhaar, dob, gender, password },
           {
             withCredentials: true,
             headers: { "Content-Type": "application/json" },
@@ -38,7 +43,7 @@ const Register = () => {
           setLastName("");
           setEmail("");
           setPhone("");
-          setNic("");
+          setAdhaar("");
           setDob("");
           setGender("");
           setPassword("");
@@ -91,10 +96,11 @@ const Register = () => {
           </div>
           <div>
             <input
-              type="number"
-              placeholder="age"
-              value={nic}
-              onChange={(e) => setNic(e.target.value)}
+              type="text"
+              placeholder="adhaar"
+              value={adhaar}
+              onChange={(e) => setAdhaar(e.target.value)}
+              maxLength="12"
             />
             <input
               type={"date"}
